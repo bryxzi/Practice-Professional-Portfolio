@@ -3,6 +3,8 @@
 A professional portfolio website showcasing my skills and experience as a developer. Made using fundamentals of HTML and CSS.
 
 ## Deployment 
+* Active Project Deployment: https://bryxzi.github.io/Practice-Professional-Portfolio/
+* Github Repository: https://github.com/bryxzi
 
 ## Built With
 * HTML
