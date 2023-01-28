@@ -1,6 +1,6 @@
 # Practice-Professional-Portfolio
  
-A professional portfolio website showcasing my skills and experience as a developer. Made using fundamentals of HTML and CSS 
+A professional portfolio website showcasing my skills and experience as a developer. Made using fundamentals of HTML and CSS.
 
 ## Deployment 
 
