@@ -7,10 +7,6 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-body {
-    padding-left: 10px;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -27,85 +23,27 @@ ul {
     padding: 10px 20px;
 }
 
-.navglow li:hover {
-    box-shadow: inset 1px 0px 0px black, 0px 0px 0px paleturquoise;
-}
-
 li {
     display: inline;
     padding: 10px 20px;
 }
 
-section>h1 {
+.navglow:hover {
+    box-shadow: inset 1px 0px 0px black, 0px 0px 0px paleturquoise;
+}
 
+section>h1 {  
     display: flex;
     justify-content: center;
     margin: 40px auto;
 }
 
-h3 {
-
-    display: flex;
-    justify-content: center;
-
+section a>h3:hover{
+    text-decoration: underline;
 }
 
-.projectContainer {
-
-    margin: 30px;
-}
-
-.primaryProject {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.secondaryProjects {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-
-
-
-.img-1 {
-
-    /* display: flex; */
-    /* justify-content: center; */
-    /* width: 100%; */
-    max-height: 350px;
-    max-width: 700px;
-    border-radius: 30px;
-    
-     margin: 0 0 30px 0;
-}
-
-.img-2 {
-
-    /* display: flex; */
-    max-height: 350px;
-    max-width: 350px;
-    border-radius: 30px;
-    margin: 0 30px;
-    /* margin: 340px 10px 0px 40px; */
-}
-
-.middle img {
-
-    height: 200px;
-    width: 200px;
-    border: 2px solid black;
-    position: relative;
-    left: -80px;
-}
-
-.aboutFontCenter {
-
+.aboutWidth {
     width: 50%;
-
 }
 
 .middle {
@@ -115,7 +53,62 @@ h3 {
     justify-content: center;
 }
 
-section>p {
+.middle img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    position: relative;
+    left: -80px;
+}
+
+h3 {  
+    display: flex;
+    justify-content: center; 
+}
+
+.projectContainer {
+    margin: 30px;
+}
+
+.primaryProject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.secondaryProjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.img-1:hover, .img-2:hover {
+    filter: brightness(60%);
+}
+
+.img-1 {
+    max-height: 350px;
+    max-width: 700px;
+    border-radius: 30px;
+    margin: 0 0 30px 0;
+}
+
+.img-2 {
+    max-height: 350px;
+    max-width: 350px;
+    border-radius: 30px;
+    margin: 0 30px;
+}
+
+#contact {
     display: flex;
     justify-content: center;
+    margin-top: 80px;
+}
+
+.contactLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px ;
 }
